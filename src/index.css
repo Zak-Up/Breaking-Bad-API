@@ -1,13 +1,151 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+h4{
+  margin-left: 2rem;
+}
+
+.navbar-collapse{
+  margin-left: 60%;
+}
+
+.nav-item{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.carousel-item{
+  max-height: 560px;
+}
+
+.carousel-item img{
+  width: auto;
+  height: 560px;
+  max-height: 560px;
+}
+
+.container-fluid img{
+  width: 120px;
+  margin-left: 3rem;
+}
+
+.navbar{
+  max-height: 4.5rem;
+}
+
+.carousel{
+  margin-top: 4rem;
+}
+
+.blue-sky{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.walter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.walter h4{
+  margin-left: 2rem;
+}
+
+.walter img{
+  margin-top: 0.25rem;
+}
+
+.tuco{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem; 
+}
+
+.skyler{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.gus{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.mike{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+}
+
+
+.blue-sky p{
+  padding: 0;
+  margin: 0;
+}
+
+
+.saul{
+  width: 100%;
+  margin-top: 4rem;
+  background-color: rgb(255, 255, 255);
+  width: 490px;
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+.camino{
+  width: 100%;
+  margin-top: 4rem;
+  background-color: rgb(249, 249, 249);
+  width: 490px;
+  padding: 1rem;
+  margin-left: 8rem;
+  margin-bottom: 4rem;
+}
+
+.titulo{
+  margin: 3.5rem;
+}
+
+.trailers{
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  background-image: url(./assets/06.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.reseña{
+  padding: 5rem;
+}
+
+.reseña p{
+  padding: 2rem;
+}
+
+.reseña h6{
+  margin-top: 20px;
+  margin-left: 2rem;
+}
+
+.reseña img{
+  margin-left: 2rem;
+}
+
+.row p{
+  text-align: center;
 }

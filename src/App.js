@@ -1,37 +1,24 @@
 import './App.css';
+import {  BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
+import Navbar from './components/navigation/Navbar';
+import Inicio from './components/pages/Inicio';
+import Character from './components/pages/Character';
+import Items from './components/pages/Items';
 
 function App() {
   const url = 'https://breakingbadapi.com/api/characters';
-  const [data, setData] = useState();
 
-  const fetchApi = async () => {
-    const res = await fetch(url);
-    const json = await res.json();
-    console.log(json);
-    setData(json)
-  }
-
-  useEffect(() => {
-    fetchApi();
-  }, []);
-
-  
   return (
     <div className="App">
-      <h1>Breaking Bad</h1>
-      {
-        !data ? 'Cargando...' :
-        data.map((a, b) => {
-          return <div className='card'>
-                  <h2>{a.name}</h2>
-                  <img key={a.char_id} src={a.img} alt=''/>
-                  <p>Apodo: {a.nickname}</p>
-                  <p>Actor: {a.portrayed}</p>
-                  <p>Ocupacion: {a.occupation}</p>
-                </div>
-        })
-      }
+
+        <Navbar/>
+          <Routes>
+            <Route path='/' element={<Inicio/>}></Route>
+            <Route path='/character' element={<Character/>}></Route>
+            <Route path='/items' element={<Items/>}></Route>
+          </Routes>
+
     </div>
   );
 }
