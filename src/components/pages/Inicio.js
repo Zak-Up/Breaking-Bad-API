@@ -88,7 +88,7 @@ const Inicio = () => {
                 <div className='saul trailer'>
                     <iframe width="460" height="280" src="https://www.youtube.com/embed/30RIP7LYPXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2>Better Call Saul</h2>
-                    <p>La sexta temporada esta disponoble en Netflix</p>
+                    <p>La sexta temporada esta disponible en Netflix</p>
                 </div>
             </div>
             <div className='footer'>
