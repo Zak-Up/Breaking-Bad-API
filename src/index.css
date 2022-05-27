@@ -12,6 +12,11 @@ h4{
   margin-left: 2rem;
 }
 
+span{
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .navbar-collapse{
   margin-left: 60%;
 }
@@ -151,18 +156,42 @@ h4{
 }
 
 .character{
+  margin-top: 8rem;
+}
+
+.items{
   margin-top: 4.5rem;
 }
 
 .card{
   display: inline-block;
   margin: 0.5rem;
+  margin-left: 1.5rem;
 }
 
 .card img{
   width: auto;
-  height: 100px;
+  height: 250px;
   max-height: 250px;
+}
+
+.card-title{
+  background-color: rgba(1, 36, 2, 0.856);
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+}
+
+.form-control{
+  width: 280px;
+  margin-left: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.label{
+  margin-left: 25%;
+  font-size: 25px;
 }
 
 
