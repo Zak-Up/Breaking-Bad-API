@@ -1,22 +1,34 @@
 import React, { useState, useEffect } from 'react';
+import FetchApi from '../FetchApi';
 import Loader from '../Loader';
 import Footer from '../Footer';
 
 const Items = () => {
-    const url = 'https://breakingbadapi.com/api/random-death/';
-    const [death, setDeath] = useState();
+    // const url = 'https://breakingbadapi.com/api/random-death';
+    // const [death, setDeath] = useState();
+    
 
-    const deathApi = async () => {
-        const res = await fetch(url);
-        const json = await res.json();
-        console.log(json);
+    // const deathApi = async () => {
+    //     const res = await fetch('https://breakingbadapi.com/api/random-death',{ cache: "reload"});
+    //     const json = await res.json();
+    //     console.log(json);
 
-        setDeath(json);
-    };
+    //     setDeath(json);
+    // };
+
+    // useEffect(() => {
+    //     deathApi();
+    // }, [url]);
+
+    const [death, changeDeath] = useState();
+
+    const changeDeathHandler = () => {
+        FetchApi(changeDeath)
+    }
 
     useEffect(() => {
-        deathApi();
-    }, [url]);
+        FetchApi(changeDeath);
+    }, []);
 
 
     return (
@@ -24,7 +36,7 @@ const Items = () => {
             <h2 className='kill_title'>Click y encuentra una muerte Random!</h2>
             <button 
                 type='submit' 
-                onClick={() => window.location.reload(false)}
+                onClick={changeDeathHandler}
                 placeholder='Muerte Random...'
                 className='kill-btn'
                 >
