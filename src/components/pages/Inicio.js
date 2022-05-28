@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from '../Carousel';
+import Curiosidades from '../Curiosidades';
 import Footer from '../Footer';
 
 const Inicio = () => {
@@ -67,7 +68,7 @@ const Inicio = () => {
                         ¿Quién no recuerda a Los Pollos Hermanos?</p>
                     </div>
                 </div>
-                <hr/>
+                <hr className='hr'/>
                 <div className='mike'>
                 <div>
                         <h4>Mike Ehrmantraut (Jonathan Banks)</h4>
@@ -78,6 +79,11 @@ const Inicio = () => {
                         <img src='https://www.seriesylibros.com/wp-content/uploads/2020/06/Mike-final.png'alt='blue' width="520px"></img>
                     </div>
                 </div> 
+            </div>
+            <hr/>
+            <div className='precuelas'>
+                <h2>Ultimas entregas del universo Breaking Bad..</h2>
+                <p>Como sabemos la serie culminó con la 6ta Temporada, Vince Guilligan nos sorprendió con la entrega de una película basáda en Breaking Bad, llamada el Camino, donde nos cuenta la historia de lo que sucede con Jesse despues de el final de la serie, la ultima producción basáda en la serie fue Better Call Saul, quien nos dejó la entrega de la 6ta temporada en el 2022.  </p>
             </div>
             <div className='trailers'>
                 <div className='camino trailer'>
@@ -91,6 +97,8 @@ const Inicio = () => {
                     <p>La sexta temporada esta disponible en Netflix</p>
                 </div>
             </div>
+            <Curiosidades/>
+            <hr/>
             <div className='footer'>
                 <Footer/>
             </div>

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
+import Curiosidades from './Curiosidades';
 import Footer from './Footer';
+import Loader from './Loader'
 
 const useFetch = () => {
     const url = 'https://breakingbadapi.com/api/characters';
@@ -36,7 +38,7 @@ const useFetch = () => {
                 onChange={searcher}>
             </input>
             {
-                !data ? 'Cargando...' :
+                !data ? <Loader/> :
                 results.map(el => {
                     return <div  className='card mb-3' style={{maxWidth: '420px'}}>
                                 <div className='row g-0'>
@@ -56,8 +58,12 @@ const useFetch = () => {
                                         
                                 </div>
                             </div> 
+                            
                 })
+                
             }
+            <hr/>
+            
             <Footer/>
         </div>
     )
