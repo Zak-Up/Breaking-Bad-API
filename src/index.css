@@ -272,6 +272,8 @@ span{
 
 
 /* ================== RESPONSIVE ================== */
+
+/* ---====== For Big Devices ======--- */
 @media screen and (max-width: 1020px){
   h4{
     margin-left: 0.5rem;
@@ -413,10 +415,6 @@ span{
   .precuelas p{
     padding: 10px;
     font-size: 13px;
-  }
-  .colors{
-    max-width: 590px !important;
-    margin-left: 5rem !important;
   }
   .card{
     margin: 1rem;
@@ -631,12 +629,12 @@ span{
     margin-bottom: 0.5rem;
   }
   .carousel-item{
-    max-height: 300px;
+    max-height: 250px;
   }
   .carousel-item img{
     width: auto;
-    height: 300px;
-    max-height: 300px;
+    height: 250px;
+    max-height: 250px;
   }
   .container-fluid img{
     width: 100px;

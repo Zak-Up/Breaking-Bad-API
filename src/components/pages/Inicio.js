@@ -11,9 +11,9 @@ const Inicio = () => {
                 <h2>La mejor serie de todos los tiempos...</h2>
                 <p>Decir que Breaking Bad es una de las mejores ficciones televisivas de los últimos 20 años no es exagerar ni un poco. Adéntrate con nosostros en esta sorprendente serie aqui encontraras a tus personajes favoritos y conocerlos un poco mas, no esta demas traer sus recuerdos llenos de aventura y accion a nuestras mentes y corazones.</p>
                 <div className='blue-sky'>
-                    <div className='blue-img'>
+                    <div className=''>
                         <img src='https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2013/09/251297-resenas-series-breaking-bad.jpg?itok=hCZbCuZ7'alt='blue'></img>
-                        <h6 className='blue-candy'>Blue Sky Candy</h6>
+                        <h6 className='blue-candy'></h6>
                     </div>
                     <div>
                         <h4>La fiebre de la Pasta Azul</h4>
