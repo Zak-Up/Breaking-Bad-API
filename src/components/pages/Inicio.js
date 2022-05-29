@@ -11,9 +11,9 @@ const Inicio = () => {
                 <h2>La mejor serie de todos los tiempos...</h2>
                 <p>Decir que Breaking Bad es una de las mejores ficciones televisivas de los últimos 20 años no es exagerar ni un poco. Adéntrate con nosostros en esta sorprendente serie aqui encontraras a tus personajes favoritos y conocerlos un poco mas, no esta demas traer sus recuerdos llenos de aventura y accion a nuestras mentes y corazones.</p>
                 <div className='blue-sky'>
-                    <div>
+                    <div className='blue-img'>
                         <img src='https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2013/09/251297-resenas-series-breaking-bad.jpg?itok=hCZbCuZ7'alt='blue'></img>
-                        <h6>Blue Sky Candy</h6>
+                        <h6 className='blue-candy'>Blue Sky Candy</h6>
                     </div>
                     <div>
                         <h4>La fiebre de la Pasta Azul</h4>
@@ -87,12 +87,12 @@ const Inicio = () => {
             </div>
             <div className='trailers'>
                 <div className='camino trailer'>
-                    <iframe width="460" height="280" src="https://www.youtube.com/embed/Bi3mMWw_cJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className='iframe' width="460" height="280" src="https://www.youtube.com/embed/Bi3mMWw_cJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2>El Camino</h2>
                     <p>Una Pelicula de Breaking Bad</p>
                 </div>
                 <div className='saul trailer'>
-                    <iframe width="460" height="280" src="https://www.youtube.com/embed/30RIP7LYPXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className='iframe' width="460" height="280" src="https://www.youtube.com/embed/30RIP7LYPXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2>Better Call Saul</h2>
                     <p>La sexta temporada esta disponible en Netflix</p>
                 </div>

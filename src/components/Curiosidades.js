@@ -12,7 +12,7 @@ const Curiosidades = () => {
                 </p>
                 <div className='blue-sky'>
                     <div>
-                        <img src='https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2013/09/251301-resenas-series-breaking-bad.jpg?itok=PBNoAo7G'alt='blue' style={{width: '680px'}}></img>
+                        <img className='colors' src='https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2013/09/251301-resenas-series-breaking-bad.jpg?itok=PBNoAo7G'alt='blue' style={{width: '680px'}}></img>
                         <h6></h6>
                     </div>
                     <div>

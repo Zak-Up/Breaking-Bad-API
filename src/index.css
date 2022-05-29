@@ -269,3 +269,516 @@ span{
 ::-webkit-scrollbar-thumb:hover{
   background-color: rgb(6, 35, 0);
 }
+
+
+/* ================== RESPONSIVE ================== */
+@media screen and (max-width: 1020px){
+  h4{
+    margin-left: 0.5rem;
+  }
+  h7{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .carousel-item{
+    max-height: 400px;
+  }
+  .carousel-item img{
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+  }
+  .container-fluid img{
+    width: 100px;
+    margin-left: 1px;
+  }
+  .blue-sky{
+    display: block;
+  }
+  .blue-img img{
+    max-width: 600px !important;
+    margin-left: 5rem !important;
+  }
+  .blue-candy{
+    margin-left: 21rem !important;
+    font-size: 10px !important;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .reseña{
+    padding: 2rem;
+  }
+  
+  .reseña p{
+    padding: 1rem;
+    font-size: 18px;
+  }
+  .reseña h6{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0.5rem;
+    font-size: 13px;
+  } 
+  .reseña img{
+    margin-left: 3rem;
+    max-width: 250px;
+  }
+  .walter{
+    display: block;
+    margin-top: 1rem;
+  }
+  .walter h4{
+    margin-left: 1rem;
+  }
+  .walter img{
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+  }
+  .tuco{
+    display: block;
+    margin-top: 3rem; 
+  }
+  .tuco img{
+    margin-bottom: 1rem;
+    max-width: 500px;
+    margin-left: 8rem;
+  }
+  .skyler{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .skyler img{
+    margin-bottom: 1rem;
+    max-width: 500px;
+  }
+  .gus{
+    display: block;
+    margin-top: 2rem;
+  }
+  .gus img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+    margin-left: 8rem;
+  }
+  .mike{
+    display: block;
+    margin-top: 3rem;
+  }
+  .mike img{
+    max-width: 500px;
+    margin-left: 8rem;
+  }
+  .trailers{
+    width: 100%;
+    padding: 0.5px;
+    display: block;
+    background-image: url(./assets/06.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .saul{
+    max-width: 570px;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+  }
+  .camino{
+    max-width: 570px;
+    margin-top:1rem;
+    background-color: rgb(249, 249, 249);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+  }
+  .iframe{
+    max-width: 560px;
+    max-height: 400px;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .precuelas{
+    margin-top: 1rem;
+    margin-left: 10px;
+    padding: 0.5rem;
+  }
+  .precuelas h2{
+    font-size: 18px;
+  }
+  .precuelas p{
+    padding: 10px;
+    font-size: 13px;
+  }
+  .colors{
+    max-width: 590px !important;
+    margin-left: 5rem !important;
+  }
+  .card{
+    margin: 1rem;
+    margin-left: 13rem;
+    margin-right: 3rem;
+  }
+  .form-control{
+    width: 280px;
+    margin-left: 36%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgba(1, 33, 0, 0.719);
+  }
+  .label{
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-size: 19px;
+  }
+  .nav-item{
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to right, #b7d0c2 , #ffffff);
+  }
+  .kills{
+    margin-top: 10rem;
+  }
+  .kill_title{
+    margin-left: 10rem;
+  }
+  .kill-btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 48%;
+  }
+}
+
+/* ---====== For medium devices ======--- */
+@media screen and (max-width: 520px){
+  h4{
+    margin-left: 0.5rem;
+  }
+  h7{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .carousel-item{
+    max-height: 300px;
+  }
+  .carousel-item img{
+    width: auto;
+    height: 300px;
+    max-height: 300px;
+  }
+  .container-fluid img{
+    width: 100px;
+    margin-left: 1px;
+  }
+  .blue-sky{
+    display: block;
+  }
+  .blue-candy{
+    margin-left: 8rem !important;
+    font-size: 10px !important;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .reseña{
+    padding: 2rem;
+  }
+  
+  .reseña p{
+    padding: 1rem;
+    font-size: 15px;
+  }
+  .reseña h6{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0.5rem;
+    font-size: 13px;
+  } 
+  .reseña img{
+    margin-left: 3rem;
+    max-width: 250px;
+  }
+  .walter{
+    display: block;
+    margin-top: 1rem;
+  }
+  .walter h4{
+    margin-left: 1rem;
+  }
+  .walter img{
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  .tuco{
+    display: block;
+    margin-top: 3rem; 
+  }
+  .tuco img{
+    margin-bottom: 1rem;
+  }
+  .skyler{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .skyler img{
+    margin-bottom: 1rem;
+  }
+  .gus{
+    display: block;
+    margin-top: 2rem;
+  }
+  .gus img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mike{
+    display: block;
+    margin-top: 3rem;
+  }
+  .trailers{
+    width: 100%;
+    padding: 0.5px;
+    display: block;
+    background-image: url(./assets/06.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .saul{
+    max-width: 270px;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    margin-left: 4.5rem;
+  }
+  .camino{
+    max-width: 270px;
+    margin-top:1rem;
+    background-color: rgb(249, 249, 249);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 4.5rem;
+  }
+  .iframe{
+    max-width: 240px;
+    max-height: 200px;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .precuelas{
+    margin-top: 1rem;
+    margin-left: 10px;
+    padding: 0.5rem;
+  }
+  .precuelas h2{
+    font-size: 18px;
+  }
+  .precuelas p{
+    padding: 10px;
+    font-size: 13px;
+  }
+  .card{
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .form-control{
+    width: 280px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgba(1, 33, 0, 0.719);
+  }
+  .label{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 19px;
+  }
+  .nav-item{
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to right, #b7d0c2 , #ffffff);
+  }
+  .kills{
+    margin-top: 7rem;
+  }
+  .kill_title{
+    margin-left: 1rem;
+  }
+  .kill-btn{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 44%;
+  }
+}
+
+/* ---====== For Small Devices ======--- */
+@media screen and (max-width: 390px){
+  h4{
+    margin-left: 0.5rem;
+  }
+  h7{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .carousel-item{
+    max-height: 300px;
+  }
+  .carousel-item img{
+    width: auto;
+    height: 300px;
+    max-height: 300px;
+  }
+  .container-fluid img{
+    width: 100px;
+    margin-left: 1px;
+  }
+  .blue-sky{
+    display: block;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .reseña{
+    padding: 2rem;
+  }
+  
+  .reseña p{
+    padding: 1rem;
+    font-size: 13px;
+  }
+  .reseña h6{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0.5rem;
+    font-size: 12px;
+  } 
+  .reseña img{
+    margin-left: 1rem;
+    max-width: 250px;
+  }
+  .walter{
+    display: block;
+    margin-top: 1rem;
+  }
+  .walter h4{
+    margin-left: 1rem;
+  }
+  .walter img{
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  .tuco{
+    display: block;
+    margin-top: 3rem; 
+  }
+  .tuco img{
+    margin-bottom: 1rem;
+  }
+  .skyler{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .skyler img{
+    margin-bottom: 1rem;
+  }
+  .gus{
+    display: block;
+    margin-top: 2rem;
+  }
+  .gus img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mike{
+    display: block;
+    margin-top: 3rem;
+  }
+  .trailers{
+    width: 100%;
+    padding: 0.5px;
+    display: block;
+    background-image: url(./assets/06.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .saul{
+    max-width: 270px;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+  }
+  .camino{
+    max-width: 270px;
+    margin-top:1rem;
+    background-color: rgb(249, 249, 249);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+  }
+  .iframe{
+    max-width: 240px;
+    max-height: 200px;
+  }
+  .titulo{
+    margin: 1rem;
+  }
+  .precuelas{
+    margin-top: 1rem;
+    margin-left: 10px;
+    padding: 0.5rem;
+  }
+  .precuelas h2{
+    font-size: 18px;
+  }
+  .precuelas p{
+    padding: 10px;
+    font-size: 13px;
+  }
+  .card{
+    margin: 1rem;
+    margin-left: 1rem;
+  }
+  .form-control{
+    width: 280px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgba(1, 33, 0, 0.719);
+  }
+  .label{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 19px;
+  }
+  .nav-item{
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to right, #b7d0c2 , #ffffff);
+  }
+  .kills{
+    margin-top: 7rem;
+  }
+  .kill_title{
+    margin-left: 1rem;
+  }
+  .kill-btn{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 44%;
+  }
+  
+}
